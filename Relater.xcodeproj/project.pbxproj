@@ -15,6 +15,7 @@
 		34AE36E71B65D96200CF437B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AE36E61B65D96200CF437B /* Images.xcassets */; };
 		34AE36EA1B65D96200CF437B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34AE36E81B65D96200CF437B /* LaunchScreen.xib */; };
 		34AE36F61B65D96200CF437B /* RelaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AE36F51B65D96200CF437B /* RelaterTests.m */; };
+		34AE370B1B65DAD500CF437B /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AE370A1B65DAD500CF437B /* HomePageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		34AE36EF1B65D96200CF437B /* RelaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34AE36F41B65D96200CF437B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34AE36F51B65D96200CF437B /* RelaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelaterTests.m; sourceTree = "<group>"; };
+		34AE37091B65DAD500CF437B /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		34AE370A1B65DAD500CF437B /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +86,15 @@
 		34AE36D51B65D96200CF437B /* Relater */ = {
 			isa = PBXGroup;
 			children = (
-				34AE36DA1B65D96200CF437B /* AppDelegate.h */,
-				34AE36DB1B65D96200CF437B /* AppDelegate.m */,
+				34AE37001B65DA0E00CF437B /* General */,
+				34AE37081B65DA8800CF437B /* Vendors */,
+				34AE37071B65DA7000CF437B /* UserIntreface */,
+				34AE37061B65DA6600CF437B /* Sections */,
+				34AE37041B65DA5200CF437B /* Resources */,
+				34AE37031B65DA4A00CF437B /* Models */,
+				34AE37021B65DA3900CF437B /* Macros */,
+				34AE37011B65DA2900CF437B /* Helpers */,
+				34AE36FF1B65D9BC00CF437B /* AppDelegate */,
 				34AE36E01B65D96200CF437B /* ViewController.h */,
 				34AE36E11B65D96200CF437B /* ViewController.m */,
 				34AE36E31B65D96200CF437B /* Main.storyboard */,
@@ -120,6 +130,73 @@
 				34AE36F41B65D96200CF437B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34AE36FF1B65D9BC00CF437B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				34AE36DA1B65D96200CF437B /* AppDelegate.h */,
+				34AE36DB1B65D96200CF437B /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		34AE37001B65DA0E00CF437B /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		34AE37011B65DA2900CF437B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		34AE37021B65DA3900CF437B /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
+		34AE37031B65DA4A00CF437B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		34AE37041B65DA5200CF437B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		34AE37061B65DA6600CF437B /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				34AE37091B65DAD500CF437B /* HomePageViewController.h */,
+				34AE370A1B65DAD500CF437B /* HomePageViewController.m */,
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		34AE37071B65DA7000CF437B /* UserIntreface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UserIntreface;
+			sourceTree = "<group>";
+		};
+		34AE37081B65DA8800CF437B /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +301,7 @@
 			files = (
 				34AE36DC1B65D96200CF437B /* AppDelegate.m in Sources */,
 				34AE36DF1B65D96200CF437B /* Relater.xcdatamodeld in Sources */,
+				34AE370B1B65DAD500CF437B /* HomePageViewController.m in Sources */,
 				34AE36E21B65D96200CF437B /* ViewController.m in Sources */,
 				34AE36D91B65D96200CF437B /* main.m in Sources */,
 			);
