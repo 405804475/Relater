@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  Relater
+//
+//  Created by lanouhn on 15/7/27.
+//  Copyright (c) 2015年 张万里. All rights reserved.
+//
+
+#ifndef Relater_PrefixHeader_pch
+#define Relater_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AFClient.h"
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#define kHost @"http://api.yixi.tv/api/v1/"
+
+#import "ListView.h"
+
+#endif
