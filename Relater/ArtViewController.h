@@ -10,4 +10,6 @@
 
 @interface ArtViewController : UIViewController
 
+@property (nonatomic , strong) NSString *url;
+@property (nonatomic , strong) NSMutableArray *dataSource;
 @end

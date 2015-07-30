@@ -54,7 +54,8 @@
                                                             <exclude reference="Pxd-Ya-LRe"/>
                                                         </mask>
                                                     </variation>
-                                                    <variation key="heightClass=regular">
+                                                    <variation key="heightClass=regular" misplaced="YES">
+                                                        <rect key="frame" x="0.0" y="31" width="320" height="200"/>
                                                         <mask key="constraints">
                                                             <include reference="Pxd-Ya-LRe"/>
                                                         </mask>
@@ -65,12 +66,18 @@
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular" misplaced="YES">
+                                                        <rect key="frame" x="10" y="291" width="300" height="30"/>
+                                                    </variation>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eid-N1-pwR">
                                                     <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.34233062939999997" green="0.3513793804" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular" misplaced="YES">
+                                                        <rect key="frame" x="10" y="5" width="300" height="21"/>
+                                                    </variation>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALR-82-8Up">
                                                     <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -85,7 +92,8 @@
                                                             <exclude reference="RBn-xo-uBc"/>
                                                         </mask>
                                                     </variation>
-                                                    <variation key="heightClass=regular">
+                                                    <variation key="heightClass=regular" misplaced="YES">
+                                                        <rect key="frame" x="160" y="246" width="150" height="30"/>
                                                         <mask key="constraints">
                                                             <include reference="RBn-xo-uBc"/>
                                                         </mask>
@@ -123,7 +131,8 @@
                                                             <exclude reference="abs-Ex-SWx"/>
                                                         </mask>
                                                     </variation>
-                                                    <variation key="heightClass=regular">
+                                                    <variation key="heightClass=regular" misplaced="YES">
+                                                        <rect key="frame" x="80" y="246" width="75" height="30"/>
                                                         <mask key="constraints">
                                                             <include reference="abs-Ex-SWx"/>
                                                         </mask>
@@ -266,6 +275,62 @@
             </objects>
             <point key="canvasLocation" x="2790" y="141"/>
         </scene>
+        <!--Art View Controller-->
+        <scene sceneID="coG-Q6-Yni">
+            <objects>
+                <viewController id="nkY-cF-82q" customClass="ArtViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nX6-C5-kTR"/>
+                        <viewControllerLayoutGuide type="bottom" id="VdY-Ah-EWj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Drk-E3-y2K">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="yzX-Hw-0gj">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="1OC-bl-7es" style="IBUITableViewCellStyleDefault" id="fWz-jZ-LFb">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fWz-jZ-LFb" id="Izx-7t-cRB">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1OC-bl-7es">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="-8" y="-8" width="600" height="800"/>
+                                </variation>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="yzX-Hw-0gj"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="yzX-Hw-0gj"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aNR-43-rrO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2193" y="1006.5"/>
+        </scene>
         <!--SetController-->
         <scene sceneID="tGY-5d-wuy">
             <objects>
@@ -350,6 +415,9 @@
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular" misplaced="YES">
+                                                        <rect key="frame" x="73" y="8" width="237" height="99"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                             <constraints>
@@ -370,15 +438,15 @@
                                                     <exclude reference="dbD-rp-QCg"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="9sz-Ys-5HQ"/>
-                                                    <exclude reference="tOX-bl-xZW"/>
-                                                    <exclude reference="4nT-ur-6Yg"/>
-                                                    <exclude reference="68d-7r-tYf"/>
-                                                    <exclude reference="S7x-fU-qnE"/>
                                                     <exclude reference="46K-30-tqA"/>
                                                     <exclude reference="8rN-EV-Xyx"/>
                                                     <exclude reference="RjF-6V-3a2"/>
                                                     <exclude reference="dwH-lw-Vgj"/>
+                                                    <exclude reference="4nT-ur-6Yg"/>
+                                                    <exclude reference="68d-7r-tYf"/>
+                                                    <exclude reference="S7x-fU-qnE"/>
+                                                    <exclude reference="9sz-Ys-5HQ"/>
+                                                    <exclude reference="tOX-bl-xZW"/>
                                                 </mask>
                                             </variation>
                                             <variation key="heightClass=regular">
@@ -388,15 +456,15 @@
                                                     <include reference="dbD-rp-QCg"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="9sz-Ys-5HQ"/>
-                                                    <include reference="tOX-bl-xZW"/>
-                                                    <include reference="4nT-ur-6Yg"/>
-                                                    <include reference="68d-7r-tYf"/>
-                                                    <include reference="S7x-fU-qnE"/>
                                                     <include reference="46K-30-tqA"/>
                                                     <include reference="8rN-EV-Xyx"/>
                                                     <include reference="RjF-6V-3a2"/>
                                                     <include reference="dwH-lw-Vgj"/>
+                                                    <include reference="4nT-ur-6Yg"/>
+                                                    <include reference="68d-7r-tYf"/>
+                                                    <include reference="S7x-fU-qnE"/>
+                                                    <include reference="9sz-Ys-5HQ"/>
+                                                    <include reference="tOX-bl-xZW"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>

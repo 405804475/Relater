@@ -27,6 +27,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:YES];
+    [ListView shareListView].ClickNumber = 0;
     [ListView shareListView].hidden = YES;
 }
 /*

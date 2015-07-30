@@ -20,6 +20,9 @@
 		340670921B68F9CF008B42FB /* OriginalityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340670911B68F9CF008B42FB /* OriginalityViewController.m */; };
 		340670951B68FA3B008B42FB /* MannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340670941B68FA3B008B42FB /* MannerViewController.m */; };
 		340670981B68FA5B008B42FB /* AnnualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340670971B68FA5B008B42FB /* AnnualViewController.m */; };
+		3406709B1B691D1F008B42FB /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3406709A1B691D1F008B42FB /* DataSource.m */; };
+		3406709E1B69218C008B42FB /* NetWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3406709D1B69218C008B42FB /* NetWorkHelper.m */; };
+		340670A11B6921F4008B42FB /* HelpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 340670A01B6921F4008B42FB /* HelpModel.m */; };
 		3454A0AC1B672D69009A75ED /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3454A0AB1B672D69009A75ED /* PlayViewController.m */; };
 		3454A0B11B672DDD009A75ED /* HouMoviePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3454A0B01B672DDD009A75ED /* HouMoviePlayerView.m */; };
 		3454A0BF1B676EEE009A75ED /* 5540385469401b10912f7a24-6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3454A0B31B676EEE009A75ED /* 5540385469401b10912f7a24-6.mp4 */; };
@@ -114,6 +117,12 @@
 		340670941B68FA3B008B42FB /* MannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MannerViewController.m; sourceTree = "<group>"; };
 		340670961B68FA5B008B42FB /* AnnualViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnualViewController.h; sourceTree = "<group>"; };
 		340670971B68FA5B008B42FB /* AnnualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnualViewController.m; sourceTree = "<group>"; };
+		340670991B691D1F008B42FB /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		3406709A1B691D1F008B42FB /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		3406709C1B69218C008B42FB /* NetWorkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkHelper.h; sourceTree = "<group>"; };
+		3406709D1B69218C008B42FB /* NetWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkHelper.m; sourceTree = "<group>"; };
+		3406709F1B6921F4008B42FB /* HelpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpModel.h; sourceTree = "<group>"; };
+		340670A01B6921F4008B42FB /* HelpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpModel.m; sourceTree = "<group>"; };
 		3454A0AA1B672D69009A75ED /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
 		3454A0AB1B672D69009A75ED /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
 		3454A0AF1B672DDD009A75ED /* HouMoviePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouMoviePlayerView.h; sourceTree = "<group>"; };
@@ -442,6 +451,12 @@
 				34AE379B1B6633B500CF437B /* LinesLabel.m */,
 				34AE37A01B6650CA00CF437B /* AFClient.h */,
 				34AE37A11B6650CA00CF437B /* AFClient.m */,
+				340670991B691D1F008B42FB /* DataSource.h */,
+				3406709A1B691D1F008B42FB /* DataSource.m */,
+				3406709C1B69218C008B42FB /* NetWorkHelper.h */,
+				3406709D1B69218C008B42FB /* NetWorkHelper.m */,
+				3406709F1B6921F4008B42FB /* HelpModel.h */,
+				340670A01B6921F4008B42FB /* HelpModel.m */,
 				34AE37541B661FD400CF437B /* PrefixHeader.pch */,
 			);
 			name = Helpers;
@@ -768,16 +783,19 @@
 				34AE37C71B665C7C00CF437B /* SDImageCache.m in Sources */,
 				34AE37511B661FC000CF437B /* AFURLRequestSerialization.m in Sources */,
 				34AE36DC1B65D96200CF437B /* AppDelegate.m in Sources */,
+				3406709E1B69218C008B42FB /* NetWorkHelper.m in Sources */,
 				3454A0AC1B672D69009A75ED /* PlayViewController.m in Sources */,
 				34AE37CC1B665C7C00CF437B /* SDWebImageManager.m in Sources */,
 				3406707D1B68D5D2008B42FB /* SkimModel.m in Sources */,
 				34AE37D41B665C7C00CF437B /* UIView+WebCacheOperation.m in Sources */,
+				340670A11B6921F4008B42FB /* HelpModel.m in Sources */,
 				34AE37521B661FC000CF437B /* AFURLResponseSerialization.m in Sources */,
 				34AE36DF1B65D96200CF437B /* Relater.xcdatamodeld in Sources */,
 				34AE37901B662D6500CF437B /* SetViewController.m in Sources */,
 				340670801B68F8DE008B42FB /* ArtViewController.m in Sources */,
 				3406702E1B67CA9B008B42FB /* TableBarViewController.m in Sources */,
 				34AE37CA1B665C7C00CF437B /* SDWebImageDownloader.m in Sources */,
+				3406709B1B691D1F008B42FB /* DataSource.m in Sources */,
 				340670751B68766D008B42FB /* ListView.m in Sources */,
 				340670951B68FA3B008B42FB /* MannerViewController.m in Sources */,
 				34AE37CF1B665C7C00CF437B /* UIImage+GIF.m in Sources */,

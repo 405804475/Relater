@@ -10,6 +10,7 @@
 
 @interface ListView : UIView
 
+@property (nonatomic , assign) NSInteger ClickNumber;
 
 + (ListView *)shareListView;
 

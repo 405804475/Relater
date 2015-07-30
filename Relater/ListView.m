@@ -36,6 +36,14 @@ static ListView *listView = nil;
     return self;
 }
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        listView.ClickNumber = 0;
+    }
+    return self;
+}
 
 
 

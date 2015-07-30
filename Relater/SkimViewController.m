@@ -29,6 +29,12 @@
     
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:YES];
+    [ListView shareListView].ClickNumber = 0;
+    [ListView shareListView].hidden = YES;
+}
 -(void)getDataWithUrl
 {
     NSString *url = @"http://api.yixi.tv/api/v1/category/19/lecturers";
@@ -75,11 +81,7 @@
     return cell;
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:YES];
-    [ListView shareListView].hidden = YES;
-}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

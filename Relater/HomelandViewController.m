@@ -9,13 +9,16 @@
 #import "HomelandViewController.h"
 
 @interface HomelandViewController ()
-
+@property (nonatomic , strong) NetWorkHelper *netwoekHelper;
 @end
 
 @implementation HomelandViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [ListView shareListView].ClickNumber = 0;
+    self.netwoekHelper = [[NetWorkHelper alloc] init];
+
     // Do any additional setup after loading the view.
 }
 

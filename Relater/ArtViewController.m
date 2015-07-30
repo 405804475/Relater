@@ -10,14 +10,37 @@
 
 @interface ArtViewController ()
 
+@property (nonatomic , strong) NetWorkHelper *netwoekHelper;
+
 @end
 
 @implementation ArtViewController
 
+- (NSMutableArray *)dataSource
+{
+    if (!_dataSource) {
+        self.dataSource = [NSMutableArray array];
+    }
+    return _dataSource;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor blueColor];
+
+    [ListView shareListView].ClickNumber = 0;
+    self.netwoekHelper = [[NetWorkHelper alloc] init];
+    
+    [self.netwoekHelper netWorkWithUrl:self.url dataSource:self.dataSource];
+    
+
+    [self addSubViews];
     // Do any additional setup after loading the view.
 }
+- (void)addSubViews
+{
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

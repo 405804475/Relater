@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface HomelandViewController : UIViewController
+@property (nonatomic , copy) NSString *url;
 
 @end
